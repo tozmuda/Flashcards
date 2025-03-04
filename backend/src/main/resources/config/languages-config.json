@@ -1,0 +1,300 @@
+{
+  "languages": [
+    {
+      "name": "Polish",
+      "short": "PL",
+      "conjunction": "conjunction",
+      "parts": [
+        {
+          "partOfSpeech": "noun",
+          "possiblePartsOfSentence": [
+            "subject",
+            "predicate noun",
+            "attribute",
+            "subject complement"
+          ]
+        },
+        {
+          "partOfSpeech": "verb",
+          "possiblePartsOfSentence": [
+            "predicate",
+            "linking verb"
+          ]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "possiblePartsOfSentence": [
+            "attribute",
+            "predicate adjective",
+            "subject complement"
+          ]
+        },
+        {
+          "partOfSpeech": "adverb",
+          "possiblePartsOfSentence": [
+            "adverbial"
+          ]
+        },
+        {
+          "partOfSpeech": "pronoun",
+          "possiblePartsOfSentence": [
+            "subject",
+            "object",
+            "attribute",
+            "subject complement"
+          ]
+        },
+        {
+          "partOfSpeech": "numeral",
+          "possiblePartsOfSentence": [
+            "attribute"
+          ]
+        },
+        {
+          "partOfSpeech": "article",
+          "possiblePartsOfSentence": [
+            "attribute"
+          ]
+        },
+        {
+          "partOfSpeech": "conjunction",
+          "possiblePartsOfSentence": [
+            "connector"
+          ]
+        },
+        {
+          "partOfSpeech": "preposition",
+          "possiblePartsOfSentence": [
+            "adverbial"
+          ]
+        },
+        {
+          "partOfSpeech": "interjection",
+          "possiblePartsOfSentence": [
+            "exclamation"
+          ]
+        },
+        {
+          "partOfSpeech": "not selected",
+          "possiblePartsOfSentence": [
+            "subject",
+            "predicate noun",
+            "attribute",
+            "object",
+            "adverbial",
+            "predicate adjective",
+            "exclamation"
+          ]
+        },
+        {
+          "partOfSpeech": "other",
+          "possiblePartsOfSentence": [
+            "subject",
+            "predicate noun",
+            "attribute",
+            "object",
+            "adverbial",
+            "predicate adjective",
+            "exclamation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "short": "EN",
+      "conjunction": "conjunction",
+      "parts": [
+        {
+          "partOfSpeech": "noun",
+          "possiblePartsOfSentence": [
+            "subject",
+            "object",
+            "complement",
+            "subject complement"
+          ]
+        },
+        {
+          "partOfSpeech": "verb",
+          "possiblePartsOfSentence": [
+            "predicate",
+            "linking verb"
+          ]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "possiblePartsOfSentence": [
+            "modifier",
+            "complement",
+            "subject complement"
+          ]
+        },
+        {
+          "partOfSpeech": "adverb",
+          "possiblePartsOfSentence": [
+            "modifier"
+          ]
+        },
+        {
+          "partOfSpeech": "pronoun",
+          "possiblePartsOfSentence": [
+            "subject",
+            "object",
+            "complement",
+            "subject complement"
+          ]
+        },
+        {
+          "partOfSpeech": "numeral",
+          "possiblePartsOfSentence": [
+            "modifier"
+          ]
+        },
+        {
+          "partOfSpeech": "article",
+          "possiblePartsOfSentence": [
+            "modifier"
+          ]
+        },
+        {
+          "partOfSpeech": "conjunction",
+          "possiblePartsOfSentence": [
+            "connector"
+          ]
+        },
+        {
+          "partOfSpeech": "preposition",
+          "possiblePartsOfSentence": [
+            "adverbial"
+          ]
+        },
+        {
+          "partOfSpeech": "interjection",
+          "possiblePartsOfSentence": [
+            "exclamation"
+          ]
+        },
+        {
+          "partOfSpeech": "not selected",
+          "possiblePartsOfSentence": [
+            "subject",
+            "object",
+            "complement",
+            "modifier",
+            "adverbial",
+            "exclamation"
+          ]
+        },
+        {
+          "partOfSpeech": "other",
+          "possiblePartsOfSentence": [
+            "subject",
+            "object",
+            "complement",
+            "modifier",
+            "adverbial",
+            "exclamation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spanish",
+      "short": "ES",
+      "conjunction": "conjunction",
+      "parts": [
+        {
+          "partOfSpeech": "noun",
+          "possiblePartsOfSentence": [
+            "subject",
+            "object",
+            "attribute",
+            "subject complement"
+          ]
+        },
+        {
+          "partOfSpeech": "verb",
+          "possiblePartsOfSentence": [
+            "predicate",
+            "linking verb"
+          ]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "possiblePartsOfSentence": [
+            "modifier",
+            "attribute",
+            "subject complement"
+          ]
+        },
+        {
+          "partOfSpeech": "adverb",
+          "possiblePartsOfSentence": [
+            "modifier"
+          ]
+        },
+        {
+          "partOfSpeech": "pronoun",
+          "possiblePartsOfSentence": [
+            "subject",
+            "object",
+            "attribute",
+            "subject complement"
+          ]
+        },
+        {
+          "partOfSpeech": "numeral",
+          "possiblePartsOfSentence": [
+            "modifier"
+          ]
+        },
+        {
+          "partOfSpeech": "article",
+          "possiblePartsOfSentence": [
+            "modifier"
+          ]
+        },
+        {
+          "partOfSpeech": "conjunction",
+          "possiblePartsOfSentence": [
+            "connector"
+          ]
+        },
+        {
+          "partOfSpeech": "preposition",
+          "possiblePartsOfSentence": [
+            "adverbial"
+          ]
+        },
+        {
+          "partOfSpeech": "interjection",
+          "possiblePartsOfSentence": [
+            "exclamation"
+          ]
+        },
+        {
+          "partOfSpeech": "not selected",
+          "possiblePartsOfSentence": [
+            "subject",
+            "object",
+            "attribute",
+            "modifier",
+            "adverbial",
+            "exclamation"
+          ]
+        },
+        {
+          "partOfSpeech": "other",
+          "possiblePartsOfSentence": [
+            "subject",
+            "object",
+            "attribute",
+            "modifier",
+            "adverbial",
+            "exclamation"
+          ]
+        }
+      ]
+    }
+  ]
+}

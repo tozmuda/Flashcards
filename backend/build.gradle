@@ -1,0 +1,46 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.4.0'
+	id 'io.spring.dependency-management' version '1.1.6'
+	id 'org.sonarqube' version "5.1.0.4882"
+	id 'jacoco'
+}
+
+group = 'pl.edu.agh.to2.fiszki'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.0'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	implementation 'org.apache.commons:commons-csv:1.12.0'
+
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.postgresql:postgresql:42.7.2'
+	implementation group: 'org.apache.pdfbox', name: 'pdfbox', version: '2.0.24'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+test {
+	jacocoTestReport {
+		reports {
+			xml.required = true
+		}
+	}
+	jvmArgs "-javaagent:${classpath.find { it.name.contains("byte-buddy-agent") }.getAbsolutePath()}"
+}
+
